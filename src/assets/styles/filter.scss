@@ -1,0 +1,18 @@
+.filter {
+    &-items {
+        // width: 50px;
+        border: 1px solid gray;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 4px;
+        &.selected {
+            background-color: #8f8f98;
+        }
+    }
+    &-items + &-items {
+        margin-top: 5px;
+    }
+}
+.filt {
+    margin-top: 30px;
+}
